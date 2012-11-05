@@ -11,17 +11,7 @@ my %WriteMakefileArgs = (
     "LICENSE"            => "perl",
     "NAME"               => "KPW2012",
     "PREREQ_PM"          => {
-        "DBD::mysql"              => 0,
-        "DBIx::Connector"         => 0,
-        "DateTime"                => 0,
-        "Gravatar::URL"           => 0,
-        "Mojo::Util"              => 0,
-        "Mojolicious::Lite"       => 0,
-        "Starlet"                 => 0,
-        "String::Random::NiceURL" => 0,
-        "Text::MultiMarkdown"     => 0,
-        "Try::Tiny"               => 0,
-        "utf8"                    => 0,
+        "App::cpanminus" => 0,
     },
     "VERSION" => "0.0.1",
     "test"    => { "TESTS" => "t/*.t" }
